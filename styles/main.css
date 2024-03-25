@@ -33,3 +33,9 @@ p {
     width: 33.33%;
     padding: 15px;
 }
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
