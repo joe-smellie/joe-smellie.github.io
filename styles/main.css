@@ -9,6 +9,7 @@ html {
     padding: 20px;
     border-color: white;
     border-radius: 15px;
+    border-style: solid;
     width: 100%;
 }
 
@@ -25,17 +26,15 @@ p {
 .row {
     font-size: 30pt;
     color: white;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .column {
     float: left;
     width: 33.33%;
     padding: 15px;
+    border-color: white;
+    border-radius: 15px;
+    border-style: solid;
 }
-
-.row::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
