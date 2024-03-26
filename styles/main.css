@@ -6,11 +6,13 @@ html {
     font-family:'Times New Roman', Times, serif;
     color: white;
     text-align: center;
-    padding: 20px;
     border-color: white;
     border-radius: 15px;
     border-style: solid;
-    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 960px;
+    
 }
 
 h1 {
@@ -28,13 +30,14 @@ p {
     color: white;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
+   
 }
 
 .column {
     float: left;
-    width: 33.33%;
-    padding: 15px;
     border-color: white;
     border-radius: 15px;
     border-style: solid;
+    width: 300px;
+    padding: 10px
 }
