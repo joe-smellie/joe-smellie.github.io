@@ -1,33 +1,28 @@
-html {
-    background-color: black;
-}
-
 .header {
     font-family:'Times New Roman', Times, serif;
-    color: white;
-    text-align: center;
-    border-color: white;
+    color: black;
+    border-color: black;
     border-radius: 15px;
     border-style: solid;
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 960px;
+    width: 100vw;
     
 }
 
 h1 {
     font-size: 50pt;
-    color: white;
+    color: black;
 }
 
 p {
     font-size: 15pt;
-    color: white;
+    color: black;
 }
 
 .row {
     font-size: 30pt;
-    color: white;
+    color: black;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
    
@@ -35,7 +30,7 @@ p {
 
 .column {
     float: left;
-    border-color: white;
+    border-color: black;
     border-radius: 15px;
     border-style: solid;
     width: 300px;
