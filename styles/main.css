@@ -24,3 +24,23 @@ body {
 h1 {
 font-size: 100px
 }
+
+.topnav {
+  overflow: hidden;
+  background-color: #5CDB95;
+}
+
+.topnav a {
+  float: left;
+  color: #053865;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.split {
+  float: right;
+  background-color: #053865;
+  color: white;
+}
