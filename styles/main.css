@@ -50,6 +50,7 @@ button {
   height: 100px;
   font-size: 30pt;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 .home-buttons {
@@ -67,4 +68,19 @@ button {
   list-style-type: none;
   color: white;
   font-size: 25px;
+}
+
+a {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 25px;
+  margin: 10px 10px 10px 20px;
+  width: 75%;
+}
+
+.about {
+  width: 100%;
 }
