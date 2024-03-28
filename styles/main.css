@@ -84,3 +84,8 @@ p {
 .about {
   width: 100%;
 }
+
+#list {
+  color: white;
+  font-size: 25px;
+}
