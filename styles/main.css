@@ -63,3 +63,8 @@ button {
   color: white;
 }
 
+.list {
+  list-style-type: none;
+  color: white;
+  font-size: 25px;
+}
