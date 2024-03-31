@@ -48,6 +48,11 @@ h2 {
   margin-left: 10px;
 }
 
+h3 {
+  font-size: 2rem;
+  color: white;
+  margin-left: 10px;
+}
 .topnav {
   overflow: hidden;
   border-style: solid;
