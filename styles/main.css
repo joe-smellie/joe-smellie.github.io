@@ -33,6 +33,7 @@ body {
   background-color: #5CDB95;
   font-family: helvetica;
   color: #053865;
+  background-image: url("/images/Shaka.png")
 }
 
 h1 {
@@ -46,6 +47,7 @@ h2 {
   font-size: 3.2rem;
   color: white;
   margin-left: 10px;
+  margin-bottom: 0px;
 }
 
 h3 {
@@ -98,7 +100,7 @@ p {
 }
 
 .flex {
-  display: flex;
+  display: grid;
   flex-direction: column;
 }
 
