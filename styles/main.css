@@ -33,7 +33,7 @@ body {
   background-color: #5CDB95;
   font-family: helvetica;
   color: #053865;
-  background-image: url("/images/Shaka.png")
+  background-image: url("/images/Shaka.png");
 }
 
 h1 {
