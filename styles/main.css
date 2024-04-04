@@ -34,6 +34,9 @@ body {
   font-family: helvetica;
   color: #053865;
   background-image: url("/images/Shaka.png");
+  max-width: 1240px;
+  margin: auto;
+  
 }
 
 h1 {
@@ -48,12 +51,14 @@ h2 {
   color: white;
   margin-left: 10px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 h3 {
   font-size: 2rem;
   color: white;
   margin-left: 10px;
+  margin-bottom: 10px;
 }
 .topnav {
   overflow: hidden;
@@ -97,6 +102,7 @@ p {
   color: white;
   font-size: 1.6rem;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 .flex {
@@ -119,4 +125,11 @@ header {
 article {
   margin-left: 10px;
   margin-bottom: 0px;
+}
+
+.recipelist{
+  color: white;
+  font-size: 1.6rem;
+  text-align: left;
+  list-style-type: decimal;
 }

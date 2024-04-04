@@ -25,11 +25,10 @@
             <br>
               <!-- insert image here-->
             <h3>What is JavaScript?</h3>
-            <p>JavaScript is a high-level, interpreted programming language that is primarily used for building web interfaces. Characterized as dynamic it is a key component of the web technology stack along with HTML and CSS, and it allows web pages to be interactive.</p>
+            <p>JavaScript is a high-level, interpreted programming language that is used for building web interfaces. Characterized as dynamic it is a key component of the web technology stack along with HTML and CSS, and it allows web pages to be interactive.</p>
            
             <h3>HTML, CSS and JavaScript, How do they all relate?</h3>
-            <p>Building a website is like building a house.</p>
-            <p>HTML is the blueprint of the house, it provides the basic structure and defines where everything goes, from the foundations, to the windows, to the walls. <a href="https://www.youtube.com/watch?v=yUZeZNxiD-M">"Siri, play ‘Get Low’ by Lil Jon."</a></p>
+            <p>Building a website is like building a house. HTML is the blueprint of the house, it provides the basic structure and defines where everything goes, from the foundations, to the windows, to the walls. <a href="https://www.youtube.com/watch?v=yUZeZNxiD-M">"Siri, play ‘Get Low’ by Lil Jon."</a></p>
             <p>CSS is like the interior designer who comes in after the house is built and makes it look nice, deciding on the colors of the walls, the types of curtains to use, and what kind of carpet goes on the floor.</p>
             <p>JavaScript, then, is like the electricity that powers all the appliances and gadgets in the house. It makes everything interactive and functional, such as turning on lights.</p>
 
@@ -37,7 +36,7 @@
             <p>Control flow refers to the order in which statements and instructions are executed in a program. Loops are a control structure that repeats a block of code until a certain condition is met. They are used when you need to run the same code multiple times.</p>
             <p>In a way, Control Flow is like following a recipe. The steps are laid out in a specific order, and sometimes, you have to repeat steps - A loop!</p>
             <p>Take making this <a href="https://cloudykitchen.com/blog/no-knead-focaccia/"> Focaccia Bread</a> as an example. There are 8 steps which we have follow in order to make a decent loaf.</p>
-            <ol>
+            <div class="recipelist" ol>
                 <li>Make the dough</li>
                 <li>Stretch and fold</li>
                 <li>Proof the dough</li>
@@ -47,12 +46,14 @@
                 <li>Dimple the dough</li>
                 <li>Bake!</li>
             </ol>
+           
             <p>Step two, the Stretch and fold you take a section of the dough, stretch it up, and fold it over on itself. You then rotate the bowl 90° and do it again, for eight stretch and folds per round. This is a loop!</p>
-            <!-- insert image of loop here-->
-
+            
+            <img src="/images/loop.png" class="loop" alt="image of a loop">
+            
             <h3>What’s the DOM and how would you interact with it?</h3>
             <p>The DOM (Document Object Model) is the interface for web documents. It represents the structure of a webpage, and allows programming languages like JavaScript to interact with it.</p>
-            <p>An example of how you might interact with the DOM......</p>
+            <p>An example of how you might interact with the DOM is by using the document object. Say if we wanted to get a hold of all "p" elements within a webpage you can use Chrome DevTools. In DevTools, in Console if you were to try document.querySelectorAll('p') that would provide a list of all p elements within a webpage.</p>
 
             <h3>What’s the difference between accessing data from arrays and objects?</h3>
             <p>Accessing data from arrays and objects in JavaScript is done differently. For arrays, you access data by its numerical index, starting from 0. For example, myArray[0] would access the first element of myArray.</p>
@@ -60,4 +61,4 @@
 
             <h3>What are functions and why are they helpful?</h3>
             <p>Functions in programming are reusable pieces of code that perform specific tasks. They are helpful because they reduce repetition, make the code more readable, and divide complex tasks into simpler sub-tasks. This prevents bugs and makes code easier to maintain and update.</p>
-              <!-- insert image here-->
+  
